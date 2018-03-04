@@ -1,0 +1,31 @@
+{
+  "name": "MiyasTravel",
+  "version": "1.0.0",
+  "description": "Gestion de ventas de paquetes turisticos y pasajes de viaje.",
+  "main": "/app.js",
+  "author": "Horus Pacheco <horuspacheco@gmail.com>",
+  "licence": "MIT",
+  "license": "ISC",
+  "build": {
+    "appId": "millas-travelv1",
+    "asar": true,
+    "win": {
+      "target": "NSIS",
+      "icon": "buld/icon.ico"
+    }
+  },
+  "dependencies": {
+    "angular-pdf": "^2.0.0",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "fs-extra": "^5.0.0",
+    "jquery": "^3.3.1",
+    "mongoose": "^5.0.4",
+    "multer": "^1.3.0",
+    "mysql": "^2.15.0",
+    "ncp": "^2.0.0"
+  }
+}

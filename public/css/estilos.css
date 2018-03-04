@@ -1,0 +1,154 @@
+html{
+	min-height: 100%;
+  position: relative;
+}
+
+
+
+a, .icono{
+  text-decoration: none;
+	cursor: pointer;
+  color:black;
+  
+
+}
+
+a:hover{
+
+  text-decoration: none;
+  color:black;
+  
+
+}
+
+.card-body p{
+
+	margin: 1% 2%;
+
+}
+
+.imagenNav{
+	width: 7%;
+}
+
+
+#descargarPDF{
+
+	display: none;
+
+}
+
+
+#pie{
+
+	position: absolute;
+  bottom: 0;
+  width: 100%;
+
+}
+
+#cabecera{
+
+  position:fixed;
+  position: sticky;
+  top: 0;
+  z-index: 1071;
+
+}
+
+.modal{
+  z-index: 1091;
+}
+
+
+.migajas{
+  position: fixed;
+  z-index: 1000;
+  width: 98%;
+}
+
+#contenido{
+  padding-top: 5%;
+}
+
+#inputGroupFile01 .custom-file-control:lang(es)::after {
+  content: "Seleccione una Imagen...";
+}
+
+#inputGroupFile01 .custom-file-control:lang(es)::before {
+  content: "Buscar";
+}
+
+
+#inputGroupFile02 .custom-file-control:lang(es)::after {
+  content: "Seleccione un PDF...";
+}
+
+#inputGroupFile02 .custom-file-control:lang(es)::before {
+  content: "Buscar";
+}
+
+/*when a value is selected, this class removes the content */
+.custom-file-control.selected:lang(es)::after {
+  content: "" !important;
+}
+
+.custom-file {
+  overflow: hidden;
+}
+.custom-file-control {
+  white-space: nowrap;
+}
+
+
+.card{
+  margin-bottom: 4%;
+}
+
+
+*{box-sizing: border-box;}
+.pdf-controls { width: 100%; display: block; background: #eee; }
+.rotate0 {-webkit-transform: rotate(0deg); transform: rotate(0deg); }
+.rotate90 {-webkit-transform: rotate(90deg); transform: rotate(90deg); }
+.rotate180 {-webkit-transform: rotate(180deg); transform: rotate(180deg); }
+.rotate270 {-webkit-transform: rotate(270deg); transform: rotate(270deg); }
+.fixed {border-radius:4px; box-shadow: 0 0 2px #000; position: fixed; margin-top: 5%; left: calc(50% - 480px); z-index: 100; width: 100%;  background: rgba(238, 238, 238,.9); width: 960px; }
+/*si necesitas que sea responsive*/
+canvas {
+  width: 100%;
+  height: auto;
+  margin-top: -20%;
+}
+
+#pdfB{
+  margin-left: 3%;
+  margin-top: 5%;
+}
+
+
+#navPDF{
+  padding:0 !important;
+}
+
+#controles{
+  margin-left: 2%;
+}
+
+
+#listar .input-group{
+
+  margin-left: 7%;
+}
+
+#descargar-btn{
+
+
+  margin-left: 2%;
+
+}
+
+
+#contenidoServidor{
+  padding: 4%;
+  box-sizing: border-box;
+}

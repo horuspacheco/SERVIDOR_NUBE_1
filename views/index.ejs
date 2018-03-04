@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html ng-app="agencia" lang="es">
+<head>
+
+	<meta charset="utf-8">
+	<title>Agencia de viaje</title>
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="public/css/fontawesome-all.min.css">
+	<link rel="stylesheet" type="text/css" href="public/css/fa-brands.min.css">
+	<link rel="stylesheet" type="text/css" href="public/css/estilos.css">
+
+
+		
+
+	<script type="text/javascript">
+		
+		$ = require('./public/js/jquery.js');
+
+		require('./node_modules/bootstrap/dist/js/bootstrap.min.js');
+		require('./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js');
+
+
+
+	</script>
+
+	<script>//if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+	<!--<script type="text/javascript" src="public/js/jquery.js"></script>
+	
+	<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>-->
+	
+	<script type="text/javascript" src="public/js/angular.js"></script>
+	<script type="text/javascript" src="public/js/angular-ui-router.js"></script>
+	<script type="text/javascript" src="public/js/app.angular.js"></script>
+
+
+
+	<script type="text/javascript" src="public/js/fontawesome-all.min.js"></script>
+	<script type="text/javascript" src="public/js/fa-brands.min.js"></script>
+	<script>//if (window.module) module = window.module;</script>
+</head>
+<body>
+
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+	  	 <a class="navbar-brand" href="#"><i class="fab fa-avianex"></i></a>
+	    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#" ui-sref="ventas">Ventas <span class="sr-only">(current)</span></a>
+	      </li>
+	    </ul>
+	  </div>
+</nav>
+
+	<section ui-view></section>
+
+
+
+	
+
+
+
+</body>
+</html>
